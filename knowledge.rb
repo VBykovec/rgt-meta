@@ -1,0 +1,2 @@
+def attribute(name)
+end
