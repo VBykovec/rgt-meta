@@ -1,5 +1,4 @@
 def attribute(name, value = nil, &block)
-    b= binding
     if name.is_a?(Symbol)|| name.is_a?(String)
         define_method name do
           if instance_variable_defined? "@#{name}"
